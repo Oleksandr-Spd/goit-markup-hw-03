@@ -90,14 +90,13 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
-  border-bottom: 1px solid #e7e9fc;
+  /* border-bottom: 1px solid #e7e9fc; */
 }
 
 .container {
   width: 100%;
   max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
   margin: 0 auto;
   outline: 2px solid red;
 }
@@ -106,6 +105,7 @@ img {
 
 .header-container {
   display: flex;
+  height: 72px;
 }
 
 .header-navigation {
@@ -128,6 +128,8 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--valhalla-color);
+  display: block;
+  padding: 24px 0;
 }
 
 .header-menu-link:hover,
@@ -145,7 +147,6 @@ img {
 .heder-logo {
   margin-right: 76px;
   margin-left: 156px;
-  padding: 24px 0;
 }
 
 .header-contacts {
@@ -176,12 +177,12 @@ img {
 /********************************* section hero **********************************/
 
 .hero {
-  padding: 188px 0;
+  /* padding: 188px 0; */
 }
 
 .hero-container {
   background-color: var(--valhalla-color);
-  /* padding: 188px 0; */
+  padding: 188px 0;
   text-align: center;
 }
 
@@ -394,10 +395,15 @@ img {
   padding: 12px 24px;
 }
 
-.btn-portfoli:hover,
-.btn-portfoli:focus {
+.btn .btn-portfoli:hover,
+.btn .btn-portfoli:focus {
+  color: var(--white-color);
+  background-color: (--valhalla-color);
   border: 1px solid transparent;
 }
 
 .portfolio-card {
+  padding: 32px 16px;
+  border-top: none;
+  border: 1px solid transparent;
 }
