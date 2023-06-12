@@ -70,7 +70,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--valhalla-color);
   margin-bottom: 8px;
-  margin-top: 32px;
 }
 
 .subtitle-descr {
@@ -78,7 +77,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--gun-powder-color);
-  margin-bottom: 32px;
 }
 
 .link {
@@ -114,7 +112,6 @@ img {
   display: flex;
   align-items: center;
   flex-grow: 1;
-  padding: 24px 0;
 }
 
 .header-menu {
@@ -148,6 +145,7 @@ img {
 .heder-logo {
   margin-right: 76px;
   margin-left: 156px;
+  padding: 24px 0;
 }
 
 .header-contacts {
@@ -178,11 +176,12 @@ img {
 /********************************* section hero **********************************/
 
 .hero {
+  padding: 188px 0;
 }
 
 .hero-container {
   background-color: var(--valhalla-color);
-  padding: 188px 0;
+  /* padding: 188px 0; */
   text-align: center;
 }
 
@@ -281,7 +280,7 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--valhalla-color);
-  align-items: center;
+  text-align: center;
   text-transform: capitalize;
   margin-bottom: 72px;
 }
@@ -302,6 +301,7 @@ img {
 .card {
   align-items: center;
   text-align: center;
+  padding: 32px 16px;
 }
 
 .team-subtitle {
