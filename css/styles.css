@@ -181,6 +181,7 @@ img {
 /********************************* section hero **********************************/
 
 .hero {
+  padding: 188px 0;
 }
 
 .hero-container {
@@ -317,7 +318,7 @@ img {
 /* Footer */
 
 .footer {
-  /* padding: 100px 0; */
+  padding: 100px 0;
 }
 
 .footer-container {
