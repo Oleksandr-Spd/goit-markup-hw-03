@@ -89,17 +89,13 @@ img {
 }
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  /* border-bottom: 1px solid #e7e9fc; */
 }
 
 .container {
-  /* width: 100%; */
+  width: 100%;
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  /* outline: 2px solid red; */
 }
 
 /********************************* section heder **********************************/
@@ -116,7 +112,7 @@ img {
 .header-navigation {
   display: flex;
   align-items: center;
-  flex-grow: 1;
+  margin-right: auto;
 }
 
 .header-menu {
@@ -151,7 +147,6 @@ img {
 
 .heder-logo {
   margin-right: 76px;
-  /* margin-left: 156px; */
 }
 
 .header-contacts {
@@ -165,7 +160,6 @@ img {
   align-items: center;
   margin-left: auto;
   gap: 40px;
-  /* margin-right: 156px; */
 }
 
 .header-contacts-link:hover,
@@ -275,8 +269,6 @@ img {
 }
 
 .team-container {
-  margin-bottom: 10px;
-  padding: 32px 16px;
 }
 
 .team-title {
@@ -298,7 +290,6 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-  margin-bottom: 120px;
 }
 
 .card {
@@ -333,7 +324,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--ghost-white-color);
   max-width: 264px;
-  margin-top: 16.43px;
 }
 
 .footer-logo {
