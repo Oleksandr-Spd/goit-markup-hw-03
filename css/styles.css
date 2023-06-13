@@ -150,7 +150,7 @@ img {
 
 .heder-logo {
   margin-right: 76px;
-  margin-left: 156px;
+  /* margin-left: 156px; */
 }
 
 .header-contacts {
@@ -164,7 +164,7 @@ img {
   align-items: center;
   margin-left: auto;
   gap: 40px;
-  margin-right: 156px;
+  /* margin-right: 156px; */
 }
 
 .header-contacts-link:hover,
