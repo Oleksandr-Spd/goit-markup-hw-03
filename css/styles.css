@@ -99,7 +99,7 @@ img {
   max-width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  /* outline: 2px solid red; */
 }
 
 /********************************* section heder **********************************/
@@ -395,9 +395,7 @@ img {
 
 .btn-portfoli:hover,
 .btn-portfoli:focus {
-  color: var(--white-color);
-  background-color: (--valhalla-color);
-  border: 1px solid var(--border-color);
+  border: 1px solid transparent;
 }
 
 .portfolio-card {
